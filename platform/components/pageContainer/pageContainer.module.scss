@@ -1,0 +1,12 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.news-container {
+    flex-grow: 1;
+
+    max-width: 800px;
+}

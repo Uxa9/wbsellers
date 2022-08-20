@@ -1,0 +1,45 @@
+.burger-menu {
+    position: absolute;
+    left: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+
+    transition: transform .2s;
+}
+
+.burger-menu-active {
+    transform: translateX(0);
+}
+
+.burger-menu-hidden {
+    transform: translateX(-500px);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+
+    padding: 12px 15px;
+    margin: 2px 0;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: background-color .2s;
+
+    a {
+        font-size: 18px;
+    }
+
+    &:hover {
+        background-color: rgba(255,255,255,0.5);
+    }
+}
+
+.link-active {
+    background-color: white;
+}
